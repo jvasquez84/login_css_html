@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+*{
+    font-family: 'Langar','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #77B6FF;
+}
+
+.contenedor-login{
+    position: relative;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: rgba(255, 255, 255,0.8);*/
+    /*border-radius: 15px;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+    color: #77B6FF;
+    padding: 30px 80px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-radius: 15px;
+}
+
+.form-row{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 600px;
+}
+
+.form-row label{
+    font-size: 2rem;
+}
+
+.form-input{
+    padding-top:40px;
+    display: flex;
+}
+
+.form-input input{
+    border:0;
+    padding: 32px;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    
+    width: 100%;
+}
+
+.form-input input:focus{
+    outline:2px #77B6FF solid;
+}
+
+.boton_enviar{
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    background-color: rgba(119, 128, 255, 0.8);
+    border-radius: 0px 0px 15px 15px;
+    padding: 30px 70px;
+    color: white;
+    font-size: 2rem;
+}
